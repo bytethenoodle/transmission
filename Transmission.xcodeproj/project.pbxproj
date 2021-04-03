@@ -263,7 +263,7 @@
 		A2E669790F5B8E5A00B4251A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2E669780F5B8E5A00B4251A /* Security.framework */; };
 		A2EA52311686AC0D00180493 /* quark.c in Sources */ = {isa = PBXBuildFile; fileRef = A2EA522F1686AC0D00180493 /* quark.c */; };
 		A2EA52321686AC0D00180493 /* quark.h in Headers */ = {isa = PBXBuildFile; fileRef = A2EA52301686AC0D00180493 /* quark.h */; };
-		A2EB2E7715C8CF2C00FBD5B4 /* QuickLookPlugin.qlgenerator in CopyFiles */ = {isa = PBXBuildFile; fileRef = A2F35BB915C5A0A100EBF632 /* QuickLookPlugin.qlgenerator */; };
+		A2EB2E7715C8CF2C00FBD5B4 /* QuickLookPlugin.qlgenerator in CopyFiles */ = {isa = PBXBuildFile; fileRef = A2F35BB915C5A0A100EBF632 /* QuickLookPlugin.qlgenerator */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		A2ED7D8F0CEF431B00970975 /* FilterButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A2ED7D8E0CEF431B00970975 /* FilterButton.m */; };
 		A2EE726F14DCCC950093C99A /* natpmp_local.h in Headers */ = {isa = PBXBuildFile; fileRef = A2EE726E14DCCC950093C99A /* natpmp_local.h */; };
 		A2F35BBC15C5A0A100EBF632 /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2F35BBB15C5A0A100EBF632 /* QuickLook.framework */; };
@@ -371,6 +371,9 @@
 		D4AF3B2F0C41F7A500D46B6B /* list.c in Sources */ = {isa = PBXBuildFile; fileRef = D4AF3B2D0C41F7A500D46B6B /* list.c */; };
 		D4AF3B300C41F7A600D46B6B /* list.h in Headers */ = {isa = PBXBuildFile; fileRef = D4AF3B2E0C41F7A500D46B6B /* list.h */; };
 		E138A9780C04D88F00C5426C /* ProgressGradients.m in Sources */ = {isa = PBXBuildFile; fileRef = E138A9760C04D88F00C5426C /* ProgressGradients.m */; };
+		EE59AB11261897FA006BA116 /* libssl.dylib in Copy Files */ = {isa = PBXBuildFile; fileRef = C139E3B022BE70FA0007870C /* libssl.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		EE59AB12261897FD006BA116 /* libcurl.4.dylib in Copy Files */ = {isa = PBXBuildFile; fileRef = A2290D2D1442B23200B95A09 /* libcurl.4.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		EE59AB13261897FF006BA116 /* libcrypto.dylib in Copy Files */ = {isa = PBXBuildFile; fileRef = A27653A714369C5C009D3CCF /* libcrypto.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		EEC32D6426182F5C0079C757 /* evutil_time.c in Sources */ = {isa = PBXBuildFile; fileRef = EEC32D6326182F5C0079C757 /* evutil_time.c */; };
 		F63480631E1D7274005B9E09 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F63480621E1D7274005B9E09 /* Images.xcassets */; };
 /* End PBXBuildFile section */
@@ -470,6 +473,9 @@
 			dstSubfolderSpec = 10;
 			files = (
 				A24F19210A3A796800C9C145 /* Sparkle.framework in Copy Files */,
+				EE59AB13261897FF006BA116 /* libcrypto.dylib in Copy Files */,
+				EE59AB11261897FA006BA116 /* libssl.dylib in Copy Files */,
+				EE59AB12261897FD006BA116 /* libcurl.4.dylib in Copy Files */,
 			);
 			name = "Copy Files";
 			runOnlyForDeploymentPostprocessing = 0;
